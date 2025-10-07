@@ -122,7 +122,7 @@ Open your browser and visit:
 
 http://localhost:8080/webapp
 
-<img width="1359" height="582" alt="Image" src="https://github.com/user-attachments/assets/03fefe91-4050-42e3-a647-bb4d4adfb8a8" />
+<img width="934" height="641" alt="Image" src="https://github.com/user-attachments/assets/46559ae5-6554-4fdb-8d5d-b963f026cf8f" />
 
 You should see the index.jsp page of your web application.
 
