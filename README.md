@@ -121,6 +121,7 @@ Transfer the WAR File to the Deploy Server
 Open your browser and visit:
 
 http://localhost:8080/webapp
+
 <img width="1359" height="582" alt="Image" src="https://github.com/user-attachments/assets/03fefe91-4050-42e3-a647-bb4d4adfb8a8" />
 
 You should see the index.jsp page of your web application.
