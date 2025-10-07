@@ -1,4 +1,4 @@
-# 🚀 Java Web Application: Build & Deploy Guide (Java 17 + Maven + Tomcat)
+ Java Web Application: Build & Deploy Guide (Java 17 + Maven + Tomcat)
 
 ## Overview
 This project is a **Java Web Application** designed to run on **Java 17**, built using **Maven**, and deployed on **Apache Tomcat**. The project demonstrates a basic Java web app structure, with a simple calculator implementation.
@@ -24,6 +24,14 @@ JavaWebCalculator/
 - **CalculatorTest.java**: Unit tests for the calculator.
 
 ## Prerequisites
+
+creating servers for build and deploy
+
+<img width="1307" height="506" alt="Image" src="https://github.com/user-attachments/assets/34f18af6-2154-4d55-8304-fab1dfcc8370" />
+<img width="929" height="581" alt="Image" src="https://github.com/user-attachments/assets/8e67cc12-fff1-4236-8e7f-f2b01b7b3fda" />
+<img width="957" height="472" alt="Image" src="https://github.com/user-attachments/assets/7a607877-3a22-43d8-a5f5-d49c80dee395" />
+<img width="1320" height="515" alt="Image" src="https://github.com/user-attachments/assets/db33f384-cb3b-469b-ae5e-3e4feb54bcab" />
+<img width="1051" height="468" alt="Image" src="https://github.com/user-attachments/assets/a53bf23d-9208-4d53-b19e-eece20bb2dd0" />
 
 ### Step 1: Install Java 17
 
@@ -105,19 +113,15 @@ mvn clean package
 
 ## Deploy the WAR to Apache Tomcat
 Transfer the WAR File to the Deploy Server
+<img width="1236" height="232" alt="Image" src="https://github.com/user-attachments/assets/f4a6454c-66f1-4b29-b72d-74adc31e72f4" />
+<img width="1003" height="505" alt="Image" src="https://github.com/user-attachments/assets/c7aa6c81-391d-4b72-9f28-3d134a376763" />
 
-To copy the .war file from the build server to the deploy server, use WinSCP and PuTTY to transfer the .pem file and then use scp to copy the .war file.
 
-Use WinSCP and PuTTY to upload the .pem file to your deploy server.
-
-On the build server, use the following scp command to copy the .war file to the deploy server
-```bash
-scp -i git.pem /home/ubuntu/JavaWebCalculator/target/*.war ubuntu@3.231.144.26:/home/ubuntu/apache-tomcat-9.0.110/webapps/
-```
 ## Test the Application
 Open your browser and visit:
 
-http://localhost:8080/webapp-0.2
+http://localhost:8080/webapp
+<img width="1359" height="582" alt="Image" src="https://github.com/user-attachments/assets/03fefe91-4050-42e3-a647-bb4d4adfb8a8" />
 
 You should see the index.jsp page of your web application.
 
