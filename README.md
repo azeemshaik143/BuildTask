@@ -34,6 +34,7 @@ sudo apt update
 sudo apt install openjdk-17-jdk -y
 ```
 <img width="992" height="411" alt="Image" src="https://github.com/user-attachments/assets/9c0246a6-4dee-4dd5-aa92-b854e37c1e0e" />
+<img width="1101" height="518" alt="Image" src="https://github.com/user-attachments/assets/0a2ab9b1-46b8-4423-8422-ea28efaa8e03" />
 ## java -version
 ### Output should be something like:
 ### openjdk version "17.0.x"...
@@ -42,6 +43,7 @@ sudo apt install openjdk-17-jdk -y
 ```bash
 sudo apt install maven -y
 ```
+<img width="878" height="496" alt="Image" src="https://github.com/user-attachments/assets/ebb2f9f5-ae90-41cc-8af9-0057f408f6e1" />
 ## Verify Maven installation
 ```bash
 mvn -v
@@ -52,10 +54,14 @@ mvn -v
 wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.110/bin/apache-tomcat-9.0.110.tar.gz
 tar -xvzf apache-tomcat-9.0.110.tar.gz
 ```
+<img width="711" height="432" alt="Image" src="https://github.com/user-attachments/assets/57945a3b-e95b-4c25-99b9-bf7df831e13e" />
+<img width="1346" height="352" alt="Image" src="https://github.com/user-attachments/assets/a75c5861-a6fe-4660-9d28-1e12b4e4f5e1" />
 ## Add Tomcat User for Manager Access
 ```bash
 sudo vi tomcat/conf/tomcat-users.xml
 ```
+<img width="897" height="305" alt="Image" src="https://github.com/user-attachments/assets/1b013a57-b162-4d84-a583-e161453981f5" />
+<img width="1329" height="428" alt="Image" src="https://github.com/user-attachments/assets/00ab1141-a0fd-4f3e-98b8-2d53872de5a5" />
 ## Add the following inside <tomcat-users>
 ```bash
 <role rolename="manager-gui"/>
@@ -66,6 +72,7 @@ sudo vi tomcat/conf/tomcat-users.xml
 ```bash
 sudo vi tomcat/webapps/manager/META-INF/context.xml
 ```
+<img width="1084" height="584" alt="Image" src="https://github.com/user-attachments/assets/0500bef7-ab85-4846-a6f7-14e355487144" />
 ## Comment out the IP restriction
 ```bash
 <!--
