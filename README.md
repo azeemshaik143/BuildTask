@@ -33,6 +33,7 @@ To install Java 17, run the following commands (for Ubuntu/Debian):
 sudo apt update
 sudo apt install openjdk-17-jdk -y
 ```
+<img width="992" height="411" alt="Image" src="https://github.com/user-attachments/assets/9c0246a6-4dee-4dd5-aa92-b854e37c1e0e" />
 ## java -version
 ### Output should be something like:
 ### openjdk version "17.0.x"...
@@ -112,3 +113,4 @@ Open your browser and visit:
 http://localhost:8080/webapp-0.2
 
 You should see the index.jsp page of your web application.
+
